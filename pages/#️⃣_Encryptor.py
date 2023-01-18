@@ -8,8 +8,8 @@ st.set_page_config(page_title='Encryptor',
 # home button
 if st.button('🏠 Home'):
     switch_page('Home')
-    
-    
+
+
 # title
 st.markdown("# Encryptor #️⃣")
 st.markdown('''This tool was built as an easy way to encrypt messages used in treasure hunts for kids. This is supported by an API, 
@@ -22,15 +22,15 @@ plain_text_in = st.text_area(
 
 # encryption method choice
 method = st.radio('**Choose the encryption method:**',
-                  ('Caesar', 'Morse', 'Numeric', 'Reverse numeric'),horizontal=True)
+                  ('Caesar', 'Morse', 'Numeric', 'Reverse numeric'), horizontal=True)
 
 # language choice
 lang = st.radio('**Choose the language:**',
-                  ('EN', 'AR',), horizontal= True)
+                ('EN', 'AR',), horizontal=True)
 payload = {
-            "plainText": plain_text_in,
-            "language": lang
-        }
+    "plainText": plain_text_in,
+    "language": lang
+}
 
 # shift selection
 shift = None
@@ -38,15 +38,15 @@ if method == 'Caesar':
     shift = st.slider('**Shift:**', 1, 26, 1)
     # payload changes if the metod is caesar
     payload = {
-            "plainText": plain_text_in,
-            "language": lang,
-            "shift": shift
-        }
+        "plainText": plain_text_in,
+        "language": lang,
+        "shift": shift
+    }
 
 if st.button('Encrypt', type='primary'):
     with st.spinner(text="Encrypting..."):
         # call encryption API
-        response=encryptor_api.encrypt(method, payload)
+        response = encryptor_api.encrypt(method, payload)
         # handle response
         if response.get('cypherText') is not None:
             st.subheader("Cypher:")
@@ -57,7 +57,8 @@ if st.button('Encrypt', type='primary'):
 # examples
 with st.expander("**See examples**"):
     st.subheader("Caesar")
-    st.code(body='''Plain text: Hello world\nLanguage: EN\nShift: 1\nCypher: IFMMP XPSME''')
+    st.code(
+        body='''Plain text: Hello world\nLanguage: EN\nShift: 1\nCypher: IFMMP XPSME''')
     st.subheader("Morse")
     st.code(body='''Plain text: Hello world\nLanguage: EN\nCypher: .... . .-.. .-.. ---/ .-- --- .-. .-.. -..''')
     st.subheader("Numeric")
