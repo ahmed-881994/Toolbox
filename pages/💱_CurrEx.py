@@ -29,10 +29,8 @@ data = load_data()
 
 # Show the available currencies
 currencies = list(data.keys())
-from_currency = st.selectbox(
-    "**Select a source currency**", currencies, key='from_curr')
-to_currency = st.selectbox(
-    "**Select a target currency**", currencies, key='to_curr')
+from_currency = st.selectbox("**Select a source currency**", currencies, key='from_curr')
+to_currency = st.selectbox("**Select a target currency**", currencies, key='to_curr')
 amount = st.number_input('**Enter value**')
 
 response = exchange_api.convert(from_currency, to_currency, amount)
@@ -47,6 +45,5 @@ col1.metric(label=data[from_currency]['name'],
 
 to_flag = Image.open(path+data[to_currency]['icon'])
 col2.image(to_flag)
-col2.metric(label=data[to_currency]['name'], value=round(
-    float(response['result']), 2), delta='', delta_color='off')
+col2.metric(label=data[to_currency]['name'], value=round(float(str(response['result'])), 2), delta='', delta_color='off')
 style_metric_cards()
