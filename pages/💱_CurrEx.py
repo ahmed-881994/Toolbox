@@ -1,4 +1,5 @@
 import datetime
+import os
 import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 from streamlit_extras.metric_cards import style_metric_cards
@@ -33,12 +34,14 @@ amount = st.number_input('**Enter value**')
     
 response = exchange_api.convert(from_currency, to_currency, amount)
 
+path = os.path.dirname(__file__)
+
 col1, col2 = st.columns(2)
-from_flag = Image.open(data[from_currency]['icon'])
+from_flag = Image.open(path+data[from_currency]['icon'])
 col1.image(from_flag)
 col1.metric(label= data[from_currency]['name'] , value=amount, delta='', delta_color='off')
 
-to_flag = Image.open(data[to_currency]['icon'])
+to_flag = Image.open(path+data[to_currency]['icon'])
 col2.image(to_flag)
 col2.metric(label= data[to_currency]['name'] , value=response['result'], delta='', delta_color='off')
 style_metric_cards()
