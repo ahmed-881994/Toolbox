@@ -1,690 +1,690 @@
 {
     " ":{
         "name":"",
-        "icon":"/assets/flags/Empty.png"
+        "icon":"/assets/flags/empty.png"
     },
     "AED": {
         "name": "United Arab Emirates Dirham",
-        "icon": "/assets/flags/AED.png"
+        "icon": "/assets/flags/aed.png"
     },
     "AFN": {
         "name": "Afghan Afghani",
-        "icon": "/assets/flags/AFN.png"
+        "icon": "/assets/flags/afn.png"
     },
     "ALL": {
         "name": "Albanian Lek",
-        "icon": "/assets/flags/ALL.png"
+        "icon": "/assets/flags/all.png"
     },
     "AMD": {
         "name": "Armenian Dram",
-        "icon": "/assets/flags/AMD.png"
+        "icon": "/assets/flags/amd.png"
     },
     "ANG": {
         "name": "Netherlands Antillean Guilder",
-        "icon": "/assets/flags/ANG.png"
+        "icon": "/assets/flags/ang.png"
     },
     "AOA": {
         "name": "Angolan Kwanza",
-        "icon": "/assets/flags/AOA.png"
+        "icon": "/assets/flags/aoa.png"
     },
     "ARS": {
         "name": "Argentine Peso",
-        "icon": "/assets/flags/ARS.png"
+        "icon": "/assets/flags/ars.png"
     },
     "AUD": {
         "name": "Australian Dollar",
-        "icon": "/assets/flags/AUD.png"
+        "icon": "/assets/flags/aud.png"
     },
     "AWG": {
         "name": "Aruban Florin",
-        "icon": "/assets/flags/AWG.png"
+        "icon": "/assets/flags/awg.png"
     },
     "AZN": {
         "name": "Azerbaijani Manat",
-        "icon": "/assets/flags/AZN.png"
+        "icon": "/assets/flags/azn.png"
     },
     "BAM": {
         "name": "Bosnia-Herzegovina Convertible Mark",
-        "icon": "/assets/flags/BAM.png"
+        "icon": "/assets/flags/bam.png"
     },
     "BBD": {
         "name": "Barbadian Dollar",
-        "icon": "/assets/flags/BBD.png"
+        "icon": "/assets/flags/bbd.png"
     },
     "BDT": {
         "name": "Bangladeshi Taka",
-        "icon": "/assets/flags/BDT.png"
+        "icon": "/assets/flags/bdt.png"
     },
     "BGN": {
         "name": "Bulgarian Lev",
-        "icon": "/assets/flags/BGN.png"
+        "icon": "/assets/flags/bgn.png"
     },
     "BHD": {
         "name": "Bahraini Dinar",
-        "icon": "/assets/flags/BHD.png"
+        "icon": "/assets/flags/bhd.png"
     },
     "BIF": {
         "name": "Burundian Franc",
-        "icon": "/assets/flags/BIF.png"
+        "icon": "/assets/flags/bif.png"
     },
     "BMD": {
         "name": "Bermudan Dollar",
-        "icon": "/assets/flags/BMD.png"
+        "icon": "/assets/flags/bmd.png"
     },
     "BND": {
         "name": "Brunei Dollar",
-        "icon": "/assets/flags/BND.png"
+        "icon": "/assets/flags/bnd.png"
     },
     "BOB": {
         "name": "Bolivian Boliviano",
-        "icon": "/assets/flags/BOB.png"
+        "icon": "/assets/flags/bob.png"
     },
     "BRL": {
         "name": "Brazilian Real",
-        "icon": "/assets/flags/BRL.png"
+        "icon": "/assets/flags/brl.png"
     },
     "BSD": {
         "name": "Bahamian Dollar",
-        "icon": "/assets/flags/BSD.png"
+        "icon": "/assets/flags/bsd.png"
     },
     "BTC": {
         "name": "Bitcoin",
-        "icon": "/assets/flags/BTC.png"
+        "icon": "/assets/flags/btc.png"
     },
     "BTN": {
         "name": "Bhutanese Ngultrum",
-        "icon": "/assets/flags/BTN.png"
+        "icon": "/assets/flags/btn.png"
     },
     "BWP": {
         "name": "Botswanan Pula",
-        "icon": "/assets/flags/BWP.png"
+        "icon": "/assets/flags/bwp.png"
     },
     "BYN": {
         "name": "Belarusian Ruble",
-        "icon": "/assets/flags/BYN.png"
+        "icon": "/assets/flags/byn.png"
     },
     "BZD": {
         "name": "Belize Dollar",
-        "icon": "/assets/flags/BZD.png"
+        "icon": "/assets/flags/bzd.png"
     },
     "CAD": {
         "name": "Canadian Dollar",
-        "icon": "/assets/flags/CAD.png"
+        "icon": "/assets/flags/cad.png"
     },
     "CDF": {
         "name": "Congolese Franc",
-        "icon": "/assets/flags/CDF.png"
+        "icon": "/assets/flags/cdf.png"
     },
     "CHF": {
         "name": "Swiss Franc",
-        "icon": "/assets/flags/CHF.png"
+        "icon": "/assets/flags/chf.png"
     },
     "CLF": {
         "name": "Chilean Unit of Account (UF)",
-        "icon": "/assets/flags/CLF.png"
+        "icon": "/assets/flags/clf.png"
     },
     "CLP": {
         "name": "Chilean Peso",
-        "icon": "/assets/flags/CLP.png"
+        "icon": "/assets/flags/clp.png"
     },
     "CNH": {
         "name": "Chinese Yuan (Offshore)",
-        "icon": "/assets/flags/CNH.png"
+        "icon": "/assets/flags/cnh.png"
     },
     "CNY": {
         "name": "Chinese Yuan",
-        "icon": "/assets/flags/CNY.png"
+        "icon": "/assets/flags/cny.png"
     },
     "COP": {
         "name": "Colombian Peso",
-        "icon": "/assets/flags/COP.png"
+        "icon": "/assets/flags/cop.png"
     },
     "CRC": {
         "name": "Costa Rican Col\u00c3\u00b3n",
-        "icon": "/assets/flags/CRC.png"
+        "icon": "/assets/flags/crc.png"
     },
     "CUC": {
         "name": "Cuban Convertible Peso",
-        "icon": "/assets/flags/CUC.png"
+        "icon": "/assets/flags/cuc.png"
     },
     "CUP": {
         "name": "Cuban Peso",
-        "icon": "/assets/flags/CUP.png"
+        "icon": "/assets/flags/cup.png"
     },
     "CVE": {
         "name": "Cape Verdean Escudo",
-        "icon": "/assets/flags/CVE.png"
+        "icon": "/assets/flags/cve.png"
     },
     "CZK": {
         "name": "Czech Republic Koruna",
-        "icon": "/assets/flags/CZK.png"
+        "icon": "/assets/flags/czk.png"
     },
     "DJF": {
         "name": "Djiboutian Franc",
-        "icon": "/assets/flags/DJF.png"
+        "icon": "/assets/flags/djf.png"
     },
     "DKK": {
         "name": "Danish Krone",
-        "icon": "/assets/flags/DKK.png"
+        "icon": "/assets/flags/dkk.png"
     },
     "DOP": {
         "name": "Dominican Peso",
-        "icon": "/assets/flags/DOP.png"
+        "icon": "/assets/flags/dop.png"
     },
     "DZD": {
         "name": "Algerian Dinar",
-        "icon": "/assets/flags/DZD.png"
+        "icon": "/assets/flags/dzd.png"
     },
     "EGP": {
         "name": "Egyptian Pound",
-        "icon": "/assets/flags/EGP.png"
+        "icon": "/assets/flags/egp.png"
     },
     "ERN": {
         "name": "Eritrean Nakfa",
-        "icon": "/assets/flags/ERN.png"
+        "icon": "/assets/flags/ern.png"
     },
     "ETB": {
         "name": "Ethiopian Birr",
-        "icon": "/assets/flags/ETB.png"
+        "icon": "/assets/flags/etb.png"
     },
     "EUR": {
         "name": "Euro",
-        "icon": "/assets/flags/EUR.png"
+        "icon": "/assets/flags/eur.png"
     },
     "FJD": {
         "name": "Fijian Dollar",
-        "icon": "/assets/flags/FJD.png"
+        "icon": "/assets/flags/fjd.png"
     },
     "FKP": {
         "name": "Falkland Islands Pound",
-        "icon": "/assets/flags/FKP.png"
+        "icon": "/assets/flags/fkp.png"
     },
     "GBP": {
         "name": "British Pound Sterling",
-        "icon": "/assets/flags/GBP.png"
+        "icon": "/assets/flags/gbp.png"
     },
     "GEL": {
         "name": "Georgian Lari",
-        "icon": "/assets/flags/GEL.png"
+        "icon": "/assets/flags/gel.png"
     },
     "GGP": {
         "name": "Guernsey Pound",
-        "icon": "/assets/flags/GGP.png"
+        "icon": "/assets/flags/ggp.png"
     },
     "GHS": {
         "name": "Ghanaian Cedi",
-        "icon": "/assets/flags/GHS.png"
+        "icon": "/assets/flags/ghs.png"
     },
     "GIP": {
         "name": "Gibraltar Pound",
-        "icon": "/assets/flags/GIP.png"
+        "icon": "/assets/flags/gip.png"
     },
     "GMD": {
         "name": "Gambian Dalasi",
-        "icon": "/assets/flags/GMD.png"
+        "icon": "/assets/flags/gmd.png"
     },
     "GNF": {
         "name": "Guinean Franc",
-        "icon": "/assets/flags/GNF.png"
+        "icon": "/assets/flags/gnf.png"
     },
     "GTQ": {
         "name": "Guatemalan Quetzal",
-        "icon": "/assets/flags/GTQ.png"
+        "icon": "/assets/flags/gtq.png"
     },
     "GYD": {
         "name": "Guyanaese Dollar",
-        "icon": "/assets/flags/GYD.png"
+        "icon": "/assets/flags/gyd.png"
     },
     "HKD": {
         "name": "Hong Kong Dollar",
-        "icon": "/assets/flags/HKD.png"
+        "icon": "/assets/flags/hkd.png"
     },
     "HNL": {
         "name": "Honduran Lempira",
-        "icon": "/assets/flags/HNL.png"
+        "icon": "/assets/flags/hnl.png"
     },
     "HRK": {
         "name": "Croatian Kuna",
-        "icon": "/assets/flags/HRK.png"
+        "icon": "/assets/flags/hrk.png"
     },
     "HTG": {
         "name": "Haitian Gourde",
-        "icon": "/assets/flags/HTG.png"
+        "icon": "/assets/flags/htg.png"
     },
     "HUF": {
         "name": "Hungarian Forint",
-        "icon": "/assets/flags/HUF.png"
+        "icon": "/assets/flags/huf.png"
     },
     "IDR": {
         "name": "Indonesian Rupiah",
-        "icon": "/assets/flags/IDR.png"
+        "icon": "/assets/flags/idr.png"
     },
     "ILS": {
         "name": "Israeli New Sheqel",
-        "icon": "/assets/flags/ILS.png"
+        "icon": "/assets/flags/ils.png"
     },
     "IMP": {
         "name": "Manx pound",
-        "icon": "/assets/flags/IMP.png"
+        "icon": "/assets/flags/imp.png"
     },
     "INR": {
         "name": "Indian Rupee",
-        "icon": "/assets/flags/INR.png"
+        "icon": "/assets/flags/inr.png"
     },
     "IQD": {
         "name": "Iraqi Dinar",
-        "icon": "/assets/flags/IQD.png"
+        "icon": "/assets/flags/iqd.png"
     },
     "IRR": {
         "name": "Iranian Rial",
-        "icon": "/assets/flags/IRR.png"
+        "icon": "/assets/flags/irr.png"
     },
     "ISK": {
         "name": "Icelandic Kr\u00c3\u00b3na",
-        "icon": "/assets/flags/ISK.png"
+        "icon": "/assets/flags/isk.png"
     },
     "JEP": {
         "name": "Jersey Pound",
-        "icon": "/assets/flags/JEP.png"
+        "icon": "/assets/flags/jep.png"
     },
     "JMD": {
         "name": "Jamaican Dollar",
-        "icon": "/assets/flags/JMD.png"
+        "icon": "/assets/flags/jmd.png"
     },
     "JOD": {
         "name": "Jordanian Dinar",
-        "icon": "/assets/flags/JOD.png"
+        "icon": "/assets/flags/jod.png"
     },
     "JPY": {
         "name": "Japanese Yen",
-        "icon": "/assets/flags/JPY.png"
+        "icon": "/assets/flags/jpy.png"
     },
     "KES": {
         "name": "Kenyan Shilling",
-        "icon": "/assets/flags/KES.png"
+        "icon": "/assets/flags/kes.png"
     },
     "KGS": {
         "name": "Kyrgystani Som",
-        "icon": "/assets/flags/KGS.png"
+        "icon": "/assets/flags/kgs.png"
     },
     "KHR": {
         "name": "Cambodian Riel",
-        "icon": "/assets/flags/KHR.png"
+        "icon": "/assets/flags/khr.png"
     },
     "KMF": {
         "name": "Comorian Franc",
-        "icon": "/assets/flags/KMF.png"
+        "icon": "/assets/flags/kmf.png"
     },
     "KPW": {
         "name": "North Korean Won",
-        "icon": "/assets/flags/KPW.png"
+        "icon": "/assets/flags/kpw.png"
     },
     "KRW": {
         "name": "South Korean Won",
-        "icon": "/assets/flags/KRW.png"
+        "icon": "/assets/flags/krw.png"
     },
     "KWD": {
         "name": "Kuwaiti Dinar",
-        "icon": "/assets/flags/KWD.png"
+        "icon": "/assets/flags/kwd.png"
     },
     "KYD": {
         "name": "Cayman Islands Dollar",
-        "icon": "/assets/flags/KYD.png"
+        "icon": "/assets/flags/kyd.png"
     },
     "KZT": {
         "name": "Kazakhstani Tenge",
-        "icon": "/assets/flags/KZT.png"
+        "icon": "/assets/flags/kzt.png"
     },
     "LAK": {
         "name": "Laotian Kip",
-        "icon": "/assets/flags/LAK.png"
+        "icon": "/assets/flags/lak.png"
     },
     "LBP": {
         "name": "Lebanese Pound",
-        "icon": "/assets/flags/LBP.png"
+        "icon": "/assets/flags/lbp.png"
     },
     "LKR": {
         "name": "Sri Lankan Rupee",
-        "icon": "/assets/flags/LKR.png"
+        "icon": "/assets/flags/lkr.png"
     },
     "LRD": {
         "name": "Liberian Dollar",
-        "icon": "/assets/flags/LRD.png"
+        "icon": "/assets/flags/lrd.png"
     },
     "LSL": {
         "name": "Lesotho Loti",
-        "icon": "/assets/flags/LSL.png"
+        "icon": "/assets/flags/lsl.png"
     },
     "LYD": {
         "name": "Libyan Dinar",
-        "icon": "/assets/flags/LYD.png"
+        "icon": "/assets/flags/lyd.png"
     },
     "MAD": {
         "name": "Moroccan Dirham",
-        "icon": "/assets/flags/MAD.png"
+        "icon": "/assets/flags/mad.png"
     },
     "MDL": {
         "name": "Moldovan Leu",
-        "icon": "/assets/flags/MDL.png"
+        "icon": "/assets/flags/mdl.png"
     },
     "MGA": {
         "name": "Malagasy Ariary",
-        "icon": "/assets/flags/MGA.png"
+        "icon": "/assets/flags/mga.png"
     },
     "MKD": {
         "name": "Macedonian Denar",
-        "icon": "/assets/flags/MKD.png"
+        "icon": "/assets/flags/mkd.png"
     },
     "MMK": {
         "name": "Myanma Kyat",
-        "icon": "/assets/flags/MMK.png"
+        "icon": "/assets/flags/mmk.png"
     },
     "MNT": {
         "name": "Mongolian Tugrik",
-        "icon": "/assets/flags/MNT.png"
+        "icon": "/assets/flags/mnt.png"
     },
     "MOP": {
         "name": "Macanese Pataca",
-        "icon": "/assets/flags/MOP.png"
+        "icon": "/assets/flags/mop.png"
     },
     "MRO": {
         "name": "Mauritanian Ouguiya (pre-2018)",
-        "icon": "/assets/flags/MRO.png"
+        "icon": "/assets/flags/mro.png"
     },
     "MRU": {
         "name": "Mauritanian Ouguiya",
-        "icon": "/assets/flags/MRU.png"
+        "icon": "/assets/flags/mru.png"
     },
     "MUR": {
         "name": "Mauritian Rupee",
-        "icon": "/assets/flags/MUR.png"
+        "icon": "/assets/flags/mur.png"
     },
     "MVR": {
         "name": "Maldivian Rufiyaa",
-        "icon": "/assets/flags/MVR.png"
+        "icon": "/assets/flags/mvr.png"
     },
     "MWK": {
         "name": "Malawian Kwacha",
-        "icon": "/assets/flags/MWK.png"
+        "icon": "/assets/flags/mwk.png"
     },
     "MXN": {
         "name": "Mexican Peso",
-        "icon": "/assets/flags/MXN.png"
+        "icon": "/assets/flags/mxn.png"
     },
     "MYR": {
         "name": "Malaysian Ringgit",
-        "icon": "/assets/flags/MYR.png"
+        "icon": "/assets/flags/myr.png"
     },
     "MZN": {
         "name": "Mozambican Metical",
-        "icon": "/assets/flags/MZN.png"
+        "icon": "/assets/flags/mzn.png"
     },
     "NAD": {
         "name": "Namibian Dollar",
-        "icon": "/assets/flags/NAD.png"
+        "icon": "/assets/flags/nad.png"
     },
     "NGN": {
         "name": "Nigerian Naira",
-        "icon": "/assets/flags/NGN.png"
+        "icon": "/assets/flags/ngn.png"
     },
     "NIO": {
         "name": "Nicaraguan C\u00c3\u00b3rdoba",
-        "icon": "/assets/flags/NIO.png"
+        "icon": "/assets/flags/nio.png"
     },
     "NOK": {
         "name": "Norwegian Krone",
-        "icon": "/assets/flags/NOK.png"
+        "icon": "/assets/flags/nok.png"
     },
     "NPR": {
         "name": "Nepalese Rupee",
-        "icon": "/assets/flags/NPR.png"
+        "icon": "/assets/flags/npr.png"
     },
     "NZD": {
         "name": "New Zealand Dollar",
-        "icon": "/assets/flags/NZD.png"
+        "icon": "/assets/flags/nzd.png"
     },
     "OMR": {
         "name": "Omani Rial",
-        "icon": "/assets/flags/OMR.png"
+        "icon": "/assets/flags/omr.png"
     },
     "PAB": {
         "name": "Panamanian Balboa",
-        "icon": "/assets/flags/PAB.png"
+        "icon": "/assets/flags/pab.png"
     },
     "PEN": {
         "name": "Peruvian Nuevo Sol",
-        "icon": "/assets/flags/PEN.png"
+        "icon": "/assets/flags/pen.png"
     },
     "PGK": {
         "name": "Papua New Guinean Kina",
-        "icon": "/assets/flags/PGK.png"
+        "icon": "/assets/flags/pgk.png"
     },
     "PHP": {
         "name": "Philippine Peso",
-        "icon": "/assets/flags/PHP.png"
+        "icon": "/assets/flags/php.png"
     },
     "PKR": {
         "name": "Pakistani Rupee",
-        "icon": "/assets/flags/PKR.png"
+        "icon": "/assets/flags/pkr.png"
     },
     "PLN": {
         "name": "Polish Zloty",
-        "icon": "/assets/flags/PLN.png"
+        "icon": "/assets/flags/pln.png"
     },
     "PYG": {
         "name": "Paraguayan Guarani",
-        "icon": "/assets/flags/PYG.png"
+        "icon": "/assets/flags/pyg.png"
     },
     "QAR": {
         "name": "Qatari Rial",
-        "icon": "/assets/flags/QAR.png"
+        "icon": "/assets/flags/qar.png"
     },
     "RON": {
         "name": "Romanian Leu",
-        "icon": "/assets/flags/RON.png"
+        "icon": "/assets/flags/ron.png"
     },
     "RSD": {
         "name": "Serbian Dinar",
-        "icon": "/assets/flags/RSD.png"
+        "icon": "/assets/flags/rsd.png"
     },
     "RUB": {
         "name": "Russian Ruble",
-        "icon": "/assets/flags/RUB.png"
+        "icon": "/assets/flags/rub.png"
     },
     "RWF": {
         "name": "Rwandan Franc",
-        "icon": "/assets/flags/RWF.png"
+        "icon": "/assets/flags/rwf.png"
     },
     "SAR": {
         "name": "Saudi Riyal",
-        "icon": "/assets/flags/SAR.png"
+        "icon": "/assets/flags/sar.png"
     },
     "SBD": {
         "name": "Solomon Islands Dollar",
-        "icon": "/assets/flags/SBD.png"
+        "icon": "/assets/flags/sbd.png"
     },
     "SCR": {
         "name": "Seychellois Rupee",
-        "icon": "/assets/flags/SCR.png"
+        "icon": "/assets/flags/scr.png"
     },
     "SDG": {
         "name": "Sudanese Pound",
-        "icon": "/assets/flags/SDG.png"
+        "icon": "/assets/flags/sdg.png"
     },
     "SEK": {
         "name": "Swedish Krona",
-        "icon": "/assets/flags/SEK.png"
+        "icon": "/assets/flags/sek.png"
     },
     "SGD": {
         "name": "Singapore Dollar",
-        "icon": "/assets/flags/SGD.png"
+        "icon": "/assets/flags/sgd.png"
     },
     "SHP": {
         "name": "Saint Helena Pound",
-        "icon": "/assets/flags/SHP.png"
+        "icon": "/assets/flags/shp.png"
     },
     "SLL": {
         "name": "Sierra Leonean Leone",
-        "icon": "/assets/flags/SLL.png"
+        "icon": "/assets/flags/sll.png"
     },
     "SOS": {
         "name": "Somali Shilling",
-        "icon": "/assets/flags/SOS.png"
+        "icon": "/assets/flags/sos.png"
     },
     "SRD": {
         "name": "Surinamese Dollar",
-        "icon": "/assets/flags/SRD.png"
+        "icon": "/assets/flags/srd.png"
     },
     "SSP": {
         "name": "South Sudanese Pound",
-        "icon": "/assets/flags/SSP.png"
+        "icon": "/assets/flags/ssp.png"
     },
     "STD": {
         "name": "S\u00c3\u00a3o Tom\u00c3\u00a9 and Pr\u00c3\u00adncipe Dobra (pre-2018)",
-        "icon": "/assets/flags/STD.png"
+        "icon": "/assets/flags/std.png"
     },
     "STN": {
         "name": "S\u00c3\u00a3o Tom\u00c3\u00a9 and Pr\u00c3\u00adncipe Dobra",
-        "icon": "/assets/flags/STN.png"
+        "icon": "/assets/flags/stn.png"
     },
     "SVC": {
         "name": "Salvadoran Col\u00c3\u00b3n",
-        "icon": "/assets/flags/SVC.png"
+        "icon": "/assets/flags/svc.png"
     },
     "SYP": {
         "name": "Syrian Pound",
-        "icon": "/assets/flags/SYP.png"
+        "icon": "/assets/flags/syp.png"
     },
     "SZL": {
         "name": "Swazi Lilangeni",
-        "icon": "/assets/flags/SZL.png"
+        "icon": "/assets/flags/szl.png"
     },
     "THB": {
         "name": "Thai Baht",
-        "icon": "/assets/flags/THB.png"
+        "icon": "/assets/flags/thb.png"
     },
     "TJS": {
         "name": "Tajikistani Somoni",
-        "icon": "/assets/flags/TJS.png"
+        "icon": "/assets/flags/tjs.png"
     },
     "TMT": {
         "name": "Turkmenistani Manat",
-        "icon": "/assets/flags/TMT.png"
+        "icon": "/assets/flags/tmt.png"
     },
     "TND": {
         "name": "Tunisian Dinar",
-        "icon": "/assets/flags/TND.png"
+        "icon": "/assets/flags/tnd.png"
     },
     "TOP": {
         "name": "Tongan Pa'anga",
-        "icon": "/assets/flags/TOP.png"
+        "icon": "/assets/flags/top.png"
     },
     "TRY": {
         "name": "Turkish Lira",
-        "icon": "/assets/flags/TRY.png"
+        "icon": "/assets/flags/try.png"
     },
     "TTD": {
         "name": "Trinidad and Tobago Dollar",
-        "icon": "/assets/flags/TTD.png"
+        "icon": "/assets/flags/ttd.png"
     },
     "TWD": {
         "name": "New Taiwan Dollar",
-        "icon": "/assets/flags/TWD.png"
+        "icon": "/assets/flags/twd.png"
     },
     "TZS": {
         "name": "Tanzanian Shilling",
-        "icon": "/assets/flags/TZS.png"
+        "icon": "/assets/flags/tzs.png"
     },
     "UAH": {
         "name": "Ukrainian Hryvnia",
-        "icon": "/assets/flags/UAH.png"
+        "icon": "/assets/flags/uah.png"
     },
     "UGX": {
         "name": "Ugandan Shilling",
-        "icon": "/assets/flags/UGX.png"
+        "icon": "/assets/flags/ugx.png"
     },
     "USD": {
         "name": "United States Dollar",
-        "icon": "/assets/flags/USD.png"
+        "icon": "/assets/flags/usd.png"
     },
     "UYU": {
         "name": "Uruguayan Peso",
-        "icon": "/assets/flags/UYU.png"
+        "icon": "/assets/flags/uyu.png"
     },
     "UZS": {
         "name": "Uzbekistan Som",
-        "icon": "/assets/flags/UZS.png"
+        "icon": "/assets/flags/uzs.png"
     },
     "VEF": {
         "name": "Venezuelan Bol\u00c3\u00advar Fuerte (Old)",
-        "icon": "/assets/flags/VEF.png"
+        "icon": "/assets/flags/vef.png"
     },
     "VES": {
         "name": "Venezuelan Bol\u00c3\u00advar Soberano",
-        "icon": "/assets/flags/VES.png"
+        "icon": "/assets/flags/ves.png"
     },
     "VND": {
         "name": "Vietnamese Dong",
-        "icon": "/assets/flags/VND.png"
+        "icon": "/assets/flags/vnd.png"
     },
     "VUV": {
         "name": "Vanuatu Vatu",
-        "icon": "/assets/flags/VUV.png"
+        "icon": "/assets/flags/vuv.png"
     },
     "WST": {
         "name": "Samoan Tala",
-        "icon": "/assets/flags/WST.png"
+        "icon": "/assets/flags/wst.png"
     },
     "XAF": {
         "name": "CFA Franc BEAC",
-        "icon": "/assets/flags/XAF.png"
+        "icon": "/assets/flags/xaf.png"
     },
     "XAG": {
         "name": "Silver Ounce",
-        "icon": "/assets/flags/XAG.png"
+        "icon": "/assets/flags/xag.png"
     },
     "XAU": {
         "name": "Gold Ounce",
-        "icon": "/assets/flags/XAU.png"
+        "icon": "/assets/flags/xau.png"
     },
     "XCD": {
         "name": "East Caribbean Dollar",
-        "icon": "/assets/flags/XCD.png"
+        "icon": "/assets/flags/xcd.png"
     },
     "XDR": {
         "name": "Special Drawing Rights",
-        "icon": "/assets/flags/XDR.png"
+        "icon": "/assets/flags/xdr.png"
     },
     "XOF": {
         "name": "CFA Franc BCEAO",
-        "icon": "/assets/flags/XOF.png"
+        "icon": "/assets/flags/xof.png"
     },
     "XPD": {
         "name": "Palladium Ounce",
-        "icon": "/assets/flags/XPD.png"
+        "icon": "/assets/flags/xpd.png"
     },
     "XPF": {
         "name": "CFP Franc",
-        "icon": "/assets/flags/XPF.png"
+        "icon": "/assets/flags/xpf.png"
     },
     "XPT": {
         "name": "Platinum Ounce",
-        "icon": "/assets/flags/XPT.png"
+        "icon": "/assets/flags/xpt.png"
     },
     "YER": {
         "name": "Yemeni Rial",
-        "icon": "/assets/flags/YER.png"
+        "icon": "/assets/flags/yer.png"
     },
     "ZAR": {
         "name": "South African Rand",
-        "icon": "/assets/flags/ZAR.png"
+        "icon": "/assets/flags/zar.png"
     },
     "ZMW": {
         "name": "Zambian Kwacha",
-        "icon": "/assets/flags/ZMW.png"
+        "icon": "/assets/flags/zmw.png"
     },
     "ZWL": {
         "name": "Zimbabwean Dollar",
-        "icon": "/assets/flags/ZWL.png"
+        "icon": "/assets/flags/zwl.png"
     }
 }
