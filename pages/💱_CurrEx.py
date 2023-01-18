@@ -40,10 +40,12 @@ path = os.getcwd()
 col1, col2 = st.columns(2)
 from_flag = Image.open(path+data[from_currency]['icon'])
 col1.image(from_flag)
-col1.metric(label=data[from_currency]['name'],
-            value=amount, delta='', delta_color='off')
+col1.metric(label=data[from_currency]['name'], value="{:.2f}".format(float(amount)), delta='', delta_color='off')
 
 to_flag = Image.open(path+data[to_currency]['icon'])
 col2.image(to_flag)
-col2.metric(label=data[to_currency]['name'], value=round(float(response['result']), 2), delta='', delta_color='off')
+response_amt = response['result']
+if response_amt is None:
+    response_amt = 0
+col2.metric(label=data[to_currency]['name'], value= "{:.2f}".format(float(response_amt)), delta='', delta_color='off')
 style_metric_cards()
