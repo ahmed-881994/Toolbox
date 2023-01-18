@@ -34,7 +34,7 @@ amount = st.number_input('**Enter value**')
     
 response = exchange_api.convert(from_currency, to_currency, amount)
 
-path = os.path.dirname(__file__)
+path = os.getcwd()
 
 col1, col2 = st.columns(2)
 from_flag = Image.open(path+data[from_currency]['icon'])
