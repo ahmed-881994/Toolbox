@@ -35,7 +35,10 @@ payload = {
 # shift selection
 shift = None
 if method == 'Caesar':
-    shift = st.slider('**Shift:**', 1, 26, 1)
+    if lang == 'EN':
+        shift = st.slider('**Shift:**', 1, 26, 1)
+    else:
+        shift = st.slider('**Shift:**', 1, 28, 1)
     # payload changes if the metod is caesar
     payload = {
         "plainText": plain_text_in,
