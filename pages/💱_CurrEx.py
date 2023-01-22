@@ -25,14 +25,19 @@ def load_data():
         data = json.load(json_file)
     return data
 
-
+# load currency data
 curr_codes_data = load_data()
+# add currency names to currency code
+options = [curr_code+': '+curr_codes_data[curr_code]['name'] for curr_code in curr_codes_data]
 
-# Show the available currencies
-currencies = list(curr_codes_data.keys())
-from_currency = st.selectbox("**Select a source currency**", currencies, key='from_curr')
-to_currency = st.selectbox("**Select a target currency**", currencies, key='to_curr')
-amount = st.number_input('**Enter value**', min_value= 0, value= 1)
+# add ui elements
+from_currency = st.selectbox("**Select a source currency**", options, key='from_curr')
+to_currency = st.selectbox("**Select a target currency**", options, key='to_curr')
+amount = st.number_input('**Enter value**')
+
+# clean input
+from_currency = str(from_currency)[:str(from_currency).index(':')]
+to_currency = str(to_currency)[:str(to_currency).index(':')]
 
 # call currenct converter api
 convert_response_today = exchange_api.convert(from_currency, to_currency, amount)
