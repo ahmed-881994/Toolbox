@@ -44,11 +44,12 @@ convert_response_today = exchange_api.convert(from_currency, to_currency, amount
 convert_response_yesterday = exchange_api.convert_with_date(from_currency, to_currency, amount, date.today() - timedelta(1))
 
 # calculate the delta from yesterday's price
-request_amt = convert_response_today['query']['amount']
-response_amt_today = 0 if convert_response_today['result'] is None else convert_response_today['result']
-response_amt_yesterday=0 if convert_response_today['result'] is None else convert_response_yesterday['rates'][to_currency]
-delta=response_amt_yesterday-response_amt_today
+rate_today =0 if convert_response_today['info']['rate'] is None else convert_response_today['info']['rate']
+rate_yesterday=0 if convert_response_today['result'] is None else convert_response_yesterday['rates'][to_currency]
+delta=rate_yesterday-rate_today
 
+request_amt = 0 if convert_response_today['result'] is None else convert_response_today['query']['amount']
+response_amt = 0 if convert_response_today['result'] is None else convert_response_today['result']
 
 path = os.getcwd()
 col1, col2 = st.columns(2)
@@ -65,9 +66,9 @@ with col1:
 with col2:
     to_flag = Image.open(path+curr_codes_data[to_currency]['icon'])
     st.image(to_flag)
-    if response_amt_today is None:
-        st.metric(label=curr_codes_data[to_currency]['name'], value= response_amt_today, delta=delta, delta_color='inverse', help='arrows indicate change from yesterday\'s price')
+    if response_amt is None:
+        st.metric(label=curr_codes_data[to_currency]['name'], value= response_amt, delta=delta, delta_color='inverse', help='arrows indicate change from yesterday\'s price')
     else:
-        st.metric(label=curr_codes_data[to_currency]['name'], value= response_amt_today, delta=delta, delta_color='inverse', help='arrows indicate change from yesterday\'s price' )
+        st.metric(label=curr_codes_data[to_currency]['name'], value= response_amt, delta=delta, delta_color='inverse', help='arrows indicate change from yesterday\'s price' )
 
 style_metric_cards()
