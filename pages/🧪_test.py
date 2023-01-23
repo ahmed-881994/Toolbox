@@ -14,7 +14,7 @@ if st.button('🏠 Home'):
 
 st.markdown('# test 🧪')
 
-code = '''<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3858220107949234"
+code = '''<div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3858220107949234"
      crossorigin="anonymous"></script>
 <!-- Toolbox -->
 <ins class="adsbygoogle"
@@ -25,7 +25,7 @@ code = '''<script async src="https://pagead2.googlesyndication.com/pagead/js/ads
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>'''
+</script></div>'''
 
 #html(code)
 
