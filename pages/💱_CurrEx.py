@@ -66,8 +66,8 @@ with col2:
     to_flag = Image.open(path+curr_codes_data[to_currency]['icon'])
     st.image(to_flag)
     if response_amt_today is None:
-        st.metric(label=curr_codes_data[to_currency]['name'], value= response_amt_today, delta=delta, delta_color='normal', help='arrows indicate change from yesterday\'s price')
+        st.metric(label=curr_codes_data[to_currency]['name'], value= response_amt_today, delta=delta, delta_color='inverse', help='arrows indicate change from yesterday\'s price')
     else:
-        st.metric(label=curr_codes_data[to_currency]['name'], value= response_amt_today, delta=delta, delta_color='normal', help='arrows indicate change from yesterday\'s price' )
+        st.metric(label=curr_codes_data[to_currency]['name'], value= response_amt_today, delta=delta, delta_color='inverse', help='arrows indicate change from yesterday\'s price' )
 
 style_metric_cards()
