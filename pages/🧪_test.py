@@ -17,7 +17,7 @@ st.markdown('# test 🧪')
 code = '''<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3858220107949234"
      crossorigin="anonymous"></script>'''
 
-html(code)
+#html(code)
 
-#st.markdown(code, unsafe_allow_html= True)
+st.markdown(code, unsafe_allow_html= True)
 
