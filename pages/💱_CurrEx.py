@@ -46,7 +46,7 @@ convert_response_yesterday = exchange_api.convert_with_date(from_currency, to_cu
 # calculate the delta from yesterday's price
 rate_today =0 if convert_response_today['info']['rate'] is None else convert_response_today['info']['rate']
 rate_yesterday=0 if convert_response_today['result'] is None else convert_response_yesterday['rates'][to_currency]
-delta=rate_yesterday-rate_today
+delta=rate_today-rate_yesterday
 
 request_amt = 0 if convert_response_today['result'] is None else convert_response_today['query']['amount']
 response_amt = 0 if convert_response_today['result'] is None else convert_response_today['result']
