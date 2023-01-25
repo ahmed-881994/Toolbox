@@ -1,7 +1,7 @@
 from streamlit_extras.switch_page_button import switch_page
 import streamlit as st
 from utils import encryptor_api
-
+from htbuilder import a, img
 # page config
 st.set_page_config(page_title='Encryptor',
                    page_icon='#️⃣', layout='wide', initial_sidebar_state='collapsed')
@@ -12,9 +12,16 @@ if st.button('🏠 Home'):
 
 # title
 st.title("Encryptor #️⃣")
-st.markdown('''This tool was built as an easy way to encrypt messages used in treasure hunts for kids. This is supported by an API, 
-            you can view the docs [here](http://encryptorapi-env.eba-fj5bpfds.us-east-1.elasticbeanstalk.com/docs)''')
+st.markdown('This tool was built as an easy way to encrypt messages used in treasure hunts for kids. This is supported by an API.')
 
+badge_html = str(
+    a(href=f"http://encryptorapi-env.eba-fj5bpfds.us-east-1.elasticbeanstalk.com/docs")(
+        img(
+            src=f"https://img.shields.io/static/v1?label=Encryptor&message=docs&color=brightgreen&style=flat-square&logo=Swagger"
+        )
+    )
+)
+st.write('Swagger UI: '+ badge_html, unsafe_allow_html=True)
 # input text area
 st.subheader("Plain text:")
 plain_text_in = st.text_area(
