@@ -19,7 +19,7 @@ st.set_page_config(page_title='Base64 to PDF',
 if st.button('🏠 Home'):
     switch_page('Home')
 
-st.markdown('# Base64 to PDF 📄')
+st.title('Base64 to PDF 📄')
 base64_in = st.text_area('**Base64:**', height=300)
 
 # Handling input

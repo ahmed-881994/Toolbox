@@ -16,7 +16,7 @@ st.set_page_config(page_title="CurrEx 💱", page_icon=":moneybag:",
 if st.button('🏠 Home'):
     switch_page('Home')
 
-st.markdown('# CurrEx 💱')
+st.title('CurrEx 💱')
 
 @st.cache(persist= True)
 def load_data():

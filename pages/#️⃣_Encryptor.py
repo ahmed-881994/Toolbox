@@ -11,7 +11,7 @@ if st.button('🏠 Home'):
 
 
 # title
-st.markdown("# Encryptor #️⃣")
+st.title("Encryptor #️⃣")
 st.markdown('''This tool was built as an easy way to encrypt messages used in treasure hunts for kids. This is supported by an API, 
             you can view the docs [here](http://encryptorapi-env.eba-fj5bpfds.us-east-1.elasticbeanstalk.com/docs)''')
 
@@ -49,7 +49,7 @@ if method == 'Caesar':
 if st.button('Encrypt', type='primary'):
     with st.spinner(text="Encrypting..."):
         # call encryption API
-        response = encryptor_api.encrypt(method, payload)
+        response = encryptor_api.encrypt(method, payload) #type: ignore
         # handle response
         if response.get('cypherText') is not None:
             st.subheader("Cypher:")
