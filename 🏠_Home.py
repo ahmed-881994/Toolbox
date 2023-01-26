@@ -4,7 +4,7 @@ from htbuilder import a, img, styles
 from htbuilder.units import px
 
 st.set_page_config(page_title='Toolbox',
-                   page_icon='🧰', layout='wide', initial_sidebar_state='expanded')
+                   page_icon='🧰', layout='wide', initial_sidebar_state='auto')
 
 
 if __name__ == "__main__":
