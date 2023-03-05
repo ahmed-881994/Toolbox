@@ -33,8 +33,11 @@ with tab1:
         if st.button('Format', type='primary', key='JSON_format_button'):
             # output result
             with col2:
-                st.subheader("JSON:")
-                st.json(input_string)
+                if len(input_string)>0:
+                    st.subheader("JSON:")
+                    st.json(input_string)
+                else:
+                    st.warning('Please enter JSON in the text area')
 
 
 with tab2:
@@ -46,8 +49,12 @@ with tab2:
         input_string = st.text_area(
             'Plain text', height=450, label_visibility='collapsed', key='XML_input')
     if st.button('Format', type='primary', key='XML_format_button'):
+        
         # output result
         with col2:
-            st.subheader("XML:")
-            st.code(format_xml(input_string), language='xml-doc')
+            if len(input_string)>0:
+                st.subheader("XML:")
+                st.code(format_xml(input_string), language='xml-doc')
+            else:
+                st.warning('Please enter XML in the text area')
 
