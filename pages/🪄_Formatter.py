@@ -9,7 +9,7 @@ def format_xml(xml_string):
     return formatted_xml
 
 # page config
-st.set_page_config(page_title='formatter',
+st.set_page_config(page_title='Formatter',
                    page_icon='{...}', layout='wide', initial_sidebar_state='collapsed')
 
 # home button
