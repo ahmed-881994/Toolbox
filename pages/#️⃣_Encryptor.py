@@ -12,8 +12,7 @@ if st.button('🏠 Home'):
 
 # title
 st.title("Encryptor #️⃣")
-st.markdown('This tool was built as an easy way to encrypt messages used in treasure hunts for kids. This is supported by an API.')
-
+st.markdown('This tool was built as an easy way to encrypt messages used in treasure hunts for kids.')
 badge_html = str(
     a(href=f"https://er47jlt2sy5h2o5wsr3525rgru0thllp.lambda-url.us-east-1.on.aws/docs")(
         img(
@@ -21,23 +20,31 @@ badge_html = str(
         )
     )
 )
-st.write('Swagger UI: '+ badge_html, unsafe_allow_html=True)
+st.write('API: '+ badge_html, unsafe_allow_html=True)
 # input text area
 st.subheader("Plain text:")
 plain_text_in = st.text_area(
     'Plain text', height=250, label_visibility='collapsed')
 
+st.caption('*See examples below.')
+
 # encryption method choice
 method = st.radio('**Choose the encryption method:**',
-                  ('Caesar', 'Morse', 'Numeric', 'Reverse numeric'), horizontal=True)
+                  ('Caesar', 'Morse', 'Numeric', 'Reverse numeric', 'NATO alphabet'), horizontal=True)
 
 # language choice
-lang = st.radio('**Choose the language:**',
-                ('EN', 'AR',), horizontal=True)
-payload = {
+if method == 'NATO alphabet':
+    lang = None
+    payload = {
     "plainText": plain_text_in,
-    "language": lang
-}
+    }
+else:
+    lang = st.radio('**Choose the language:**',
+                ('EN', 'AR',), horizontal=True)
+    payload = {
+        "plainText": plain_text_in,
+        "language": lang
+    }
 
 # shift selection
 shift = None
@@ -46,7 +53,7 @@ if method == 'Caesar':
         shift = st.slider('**Shift:**', 1, 26, 1)
     else:
         shift = st.slider('**Shift:**', 1, 28, 1)
-    # payload changes if the metod is caesar
+    # payload changes if the method is caesar
     payload = {
         "plainText": plain_text_in,
         "language": lang,
@@ -75,3 +82,6 @@ with st.expander("**See examples**"):
     st.code(body='''Plain text: Hello world\nLanguage: EN\nCypher: 8 5 12 12 15/ 23 15 18 12 4''')
     st.subheader("Reverse numeric")
     st.code(body='''Plain text: Hello world\nLanguage: EN\nCypher: 19 22 15 15 12/ 4 12 9 15 23''')
+    st.subheader("NATO alphabet")
+    st.caption('English language only')
+    st.code(body='''Plain text: Hello world\nCypher: hotel echo lima lima oscar (space) whiskey oscar romeo lima delta''')

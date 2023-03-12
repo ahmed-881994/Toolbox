@@ -8,8 +8,8 @@ st.set_page_config(page_title='Toolbox',
 
 
 st.title("Welcome 👋")
-st.write('''This is a collection of several tools I\'ve made over the years, 
-        whether for a specific need or just to practice **Python** while implementing tools I already use.''')
+#st.write('''This is a collection of several tools I\'ve made over the years, 
+#        whether for a specific need or just to practice **Python** while implementing tools I already use.''')
 selected=streamlit_option_menu.option_menu(menu_title='Tools', options= ['Home', 'Encryptor', 'CurrEx', 'Base64 to PDF', 'Formatter'],menu_icon='tools',icons=['house','hash','currency-exchange','file-earmark-pdf','list-columns-reverse'],orientation='horizontal', default_index=0)
 
 if selected != 'Home':
