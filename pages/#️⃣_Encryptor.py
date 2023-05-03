@@ -14,7 +14,7 @@ if st.button('🏠 Home'):
 st.title("Encryptor #️⃣")
 st.markdown('This tool was built as an easy way to encrypt messages used in treasure hunts for kids.')
 badge_html = str(
-    a(href=f"https://er47jlt2sy5h2o5wsr3525rgru0thllp.lambda-url.us-east-1.on.aws/docs")(
+    a(href=f"https://encryptorapi-2-e5583038.deta.app/docs")(
         img(
             src=f"https://img.shields.io/static/v1?label=Encryptor&message=docs&color=brightgreen&style=flat-square&logo=Swagger"
         )
