@@ -17,7 +17,7 @@ if st.button('🏠 Home'):
 
 st.title('CurrEx 💱')
 
-@st.cache(persist= True)
+@st.cache_data(persist= True)
 def load_data():
     # Load the data from the JSON file
     with open('./assets/currency_codes.json', 'r') as json_file:
