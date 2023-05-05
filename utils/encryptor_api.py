@@ -3,7 +3,7 @@ import requests
 import json
 import streamlit as st
 
-@st.cache(persist= True, show_spinner= False)
+@st.cache_data(persist= True, show_spinner= False)
 def encrypt(method:str, payload):
     method = method.lower().replace(' ','')
     url = constants.ENCRYPTOR_URL + method

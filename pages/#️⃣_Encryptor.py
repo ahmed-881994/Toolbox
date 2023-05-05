@@ -67,6 +67,15 @@ if st.button('Encrypt', type='primary'):
         # handle response
         if response.get('cypherText') is not None:
             st.subheader("Cypher:")
+            if lang=='AR':
+                st.markdown("""
+                    <style>
+                    code{
+                    unicode-bidi:bidi-override;
+                    direction: RTL;
+                    }
+                    </style>
+                        """, unsafe_allow_html=True)
             st.code(body=response['cypherText'])
         elif response['detail'][0]['msg'] is not None:
             st.error(response['detail'][0]['msg'])
