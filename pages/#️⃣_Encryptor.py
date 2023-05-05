@@ -68,8 +68,11 @@ if st.button('Encrypt', type='primary'):
         if response.get('cypherText') is not None:
             st.subheader("Cypher:")
             st.code(body=response['cypherText'])
-        else:
+        elif response['detail'][0]['msg'] is not None:
             st.error(response['detail'][0]['msg'])
+        else:
+            st.error('An error occurred')
+            
 
 # examples
 with st.expander("**See examples**"):
