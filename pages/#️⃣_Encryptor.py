@@ -71,7 +71,7 @@ if st.button('Encrypt', type='primary'):
                 st.markdown("""
                     <style>
                     code{
-                    unicode-bidi:bidi-override;
+                    unicode-bidi:isolate;
                     direction: RTL;
                     }
                     </style>
